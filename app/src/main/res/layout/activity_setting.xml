@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".view.setting.SettingActivity">
+
+    <ImageButton
+        android:id="@+id/localization"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/gradient_main"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_language_24" />
+
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/gradient_main"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/baseline_logout_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/language"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@color/cyan_800"
+        app:layout_constraintEnd_toEndOf="@+id/localization"
+        app:layout_constraintStart_toStartOf="@+id/localization"
+        app:layout_constraintTop_toBottomOf="@+id/localization" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/log_out"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@color/cyan_800"
+        app:layout_constraintEnd_toEndOf="@+id/logout"
+        app:layout_constraintStart_toStartOf="@+id/logout"
+        app:layout_constraintTop_toBottomOf="@+id/logout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

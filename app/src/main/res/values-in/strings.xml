@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Story App</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in atau register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Selamat Datang !"</string>
+    <string name="invalid_username">Username tidak valid</string>
+    <string name="invalid_password">Password harus >7 karakter</string>
+    <string name="login_failed">"Login gagal"</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="not_yet_have_an_account">Not Yet Have an Account? Register!</string>
+    <string name="name">Nama</string>
+    <string name="description">deskripsi</string>
+    <string name="invalid_email">Email tidak valid</string>
+    <string name="required_field">Field dibutuhkan</string>
+    <string name="login_success">Login Sukses</string>
+    <string name="login_sucess">Login Sukses</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Upload</string>
+    <string name="camera_x">Camera X</string>
+    <string name="not_having_permission">Tidak mendapat izin</string>
+    <string name="pick_picture_first">Pilih gambar dahulu</string>
+    <string name="failed_showing_camera">Gagal menunjukkan kamera</string>
+    <string name="setting">pengarutan</string>
+    <string name="language">Bahasa</string>
+    <string name="log_out">Keluar</string>
+    <string name="user_logout">User Keluar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="retry">Retry</string>
+</resources>
